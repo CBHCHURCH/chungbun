@@ -1,0 +1,104 @@
+/* 전체 설정 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #E6F2F8; /* 배경색 변경 */
+}
+
+/* 헤더 */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #336699; /* 배경색 변경 */
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff; /* 글자색 변경 */
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 30px;
+}
+
+nav a {
+  color: #fff; /* 글자색 변경 */
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #BFD8DC; /* 글자색 변경 */
+}
+
+/* 메인 */
+main {
+  padding: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* 섹션 */
+section {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 40px;
+}
+
+section:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+/* 이미지 */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+footer {
+  background-color: #BFD8DC; /* 배경색 변경 */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff; /* 글자색 변경 */
+}
